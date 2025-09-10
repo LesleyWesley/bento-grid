@@ -1,0 +1,15 @@
+/*CSS Variables*/
+
+:root {
+  --main-accent-light: #dacffc;
+  --main-accent-dark: 	#7650dc;
+  --second-accent-light: 	#f9eee1;
+  --second-accent-dark: #ffcb6b;
+  --neutral-light: #FFF;
+  --neutral-dark: #000;
+}
+
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
