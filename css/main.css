@@ -41,6 +41,7 @@
 .wide-content-container {
   width: 90%;
   flex-direction: column;
+  padding-top: 2rem;
 }
 
 /*Mobile Styling*/
@@ -86,4 +87,10 @@ p {
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.social-card-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
