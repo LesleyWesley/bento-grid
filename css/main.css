@@ -22,6 +22,14 @@
   color: var(--neutral-light);
 }
 
+.second-accent-dark-bg {
+  background-color: var(--second-accent-dark);
+}
+
+.main-accent-text {
+  color: var(--main-accent-dark);
+}
+
 .secondary-dark-text {
   color: var(--second-accent-dark);
 }
@@ -84,6 +92,8 @@ p {
   margin: .5rem 0 0 0 ;
 }
 
+/*Second Card - Mobile*/
+
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -93,4 +103,36 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+
+.social-card {
+  gap: .75rem;
+  box-shadow: -2px 5px 10px rgba(0, 0, 0, .1);
+  padding: .75rem;
+  border-radius: 2rem;
+}
+
+.fa-brands {
+  font-size: 1.5rem;
+  padding: .5rem;
+  border-radius: 50%;
+}
+
+.social-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.handle {
+  font-weight: 700;
+}
+
+.followers {
+  font-size: .75rem;
+  opacity: .25;
+  font-weight: 500;
 }
