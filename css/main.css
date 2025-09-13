@@ -97,6 +97,7 @@ p {
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
+  line-height: 1.5rem;
 }
 
 .social-card-section {
@@ -135,4 +136,22 @@ h2 {
   font-size: .75rem;
   opacity: .25;
   font-weight: 500;
+}
+
+/*Third card - Mobile*/
+
+.third-card-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: url("../images/illustration-consistent-schedule.webp");
+  background-size: 70%;
+  background-position: left 5% bottom -1.25rem;
+  background-repeat: no-repeat;
+}
+
+.third-card-container h2 {
+  padding-bottom: 8.5rem;
 }
