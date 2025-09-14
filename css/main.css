@@ -22,6 +22,10 @@
   color: var(--neutral-light);
 }
 
+.main-accent-light-bg {
+  background-color: var(--main-accent-light);
+}
+
 .second-accent-dark-bg {
   background-color: var(--second-accent-dark);
 }
@@ -49,7 +53,6 @@
 .wide-content-container {
   width: 90%;
   flex-direction: column;
-  padding-top: 2rem;
 }
 
 /*Mobile Styling*/
@@ -154,4 +157,15 @@ h2 {
 
 .third-card-container h2 {
   padding-bottom: 8.5rem;
+}
+
+/*Fourth card - Mobile*/
+
+.fourth-card {
+  padding: 1rem 0 2rem 0;
+}
+
+.fourth-card p {
+  text-align: center;
+  width: 90%;
 }
