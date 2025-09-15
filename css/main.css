@@ -162,10 +162,25 @@ h2 {
 /*Fourth card - Mobile*/
 
 .fourth-card {
-  padding: 1rem 0 2rem 0;
+  padding: 1rem  0;
 }
 
 .fourth-card p {
   text-align: center;
   width: 90%;
+  margin: 1rem 0;
+}
+
+/*Fifth card - Mobile*/
+
+.fifth-card {
+  flex-direction: column;
+  width: 70%;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.fifth-card h2 {
+  font-size: 2rem;
+  line-height: 2rem;
 }
