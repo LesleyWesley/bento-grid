@@ -184,3 +184,23 @@ h2 {
   font-size: 2rem;
   line-height: 2rem;
 }
+
+/*Sixth card - Mobile*/
+
+.sixth-card {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sixth-card h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sixth-card img {
+  margin: 1rem 0 2rem 0;
+  width: 60%;
+}
