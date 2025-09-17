@@ -30,6 +30,10 @@
   background-color: var(--second-accent-dark);
 }
 
+.second-accent-light-bg {
+  background-color: var(--second-accent-light);
+}
+
 .main-accent-text {
   color: var(--main-accent-dark);
 }
@@ -203,4 +207,24 @@ h2 {
 .sixth-card img {
   margin: 1rem 0 2rem 0;
   width: 60%;
+}
+
+/*Seventh Card - Mobile*/
+
+.seventh-card {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.seventh-card h2 {
+  font-size: 1.8rem;
+  line-height: 1.75rem;
+}
+
+.seventh-card img {
+  width: 65%;
+  margin-bottom: 2rem;
 }
